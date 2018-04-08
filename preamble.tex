@@ -1,0 +1,216 @@
+% preamble.tex, to be used with thesis.tex
+% This contains the TeX definitions for layout, style, etc., as well as the first few pages of your thesis: title page, copyright page, approval page, abstract, acknowledgments, tables of contents, tables, and figures.
+% The layout commands should give the correct margins according to the graduate division's guidelines
+
+%%%%% TeX class and packages
+
+\documentclass[12pt,oneside]{sfsuthesis}
+
+\usepackage{amsthm,amsmath,amssymb,amsfonts,latexsym,graphicx,enumerate,setspace,verbatim,tocloft,rotating}
+%\usepackage{color}                    % For creating colored text and background
+%\usepackage{hyperref}                 % For creating hyperlinks in cross references
+% other possibly useful packages: textcomp,mathrsfs,amscd,epsfig,euscript,cancel
+
+%%%%% Layout
+% These numbers might depend on your printer. Check the margins and compare them to the Graduate Division's
+% guidelines. If there's something off, try playing with the numbers...
+%
+% For chapters:
+%     Must have a minimum of 1.5in margin on left and 1in on all other sides.  Where there are page numbers
+%     (whether on top or bottom), must have one additional inch between the page number and the text, for a
+%     total of 2in between the edge of the paper and the text.
+% For frontmatter pages:
+%     The same margin numbers generally work, except for the Title Page, so you will notice that we use
+%     some numbers for \textheight and \footskip right here, and then change them below, right after
+%     generating the Title Page.
+
+\hoffset=.5in 
+\oddsidemargin=0in   % = 1in because LaTeX adds 1in
+\evensidemargin=0in  % = 1in because LaTeX adds 1in
+\topmargin=0in       % = 1in because LaTeX adds 1in
+\headheight=0in
+\headsep=1in         % Distance from top of pagenum (for page numbers at top-right corner of page) to text
+\footskip=1.2in      % Distance from bottom of text to the page number (for page number at bottom of page)
+\textwidth=5.9in     % Should be 6in, but use 5.9in to be conservative
+\textheight=8.0in    % Best for Title Page (will change after the Title Page)
+
+\pagestyle{plain}
+
+\doublespacing
+
+%%%%% Style of theorems, definitions, examples, equations, etc.
+
+\theoremstyle{plain} % Heading is bold, text italic.
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}{Conjecture}[chapter]
+
+\theoremstyle{definition}  % Heading is bold, text is roman
+\newtheorem{definition}{Definition}[chapter]
+\newtheorem{example}{Example}[chapter]
+
+\theoremstyle{remark}  % Heading is italic, text is roman
+\newtheorem*{remark}{Remark}
+\newtheorem*{note}{Note}
+\newtheorem{claim}{Claim}[chapter]
+
+%%%%% Appendix style
+
+\renewcommand\appendix[1]{
+\chapter*{#1}
+\addcontentsline{toc}{chapter}{#1}
+}
+
+%%%%% Title page
+
+\begin{document}
+
+\pagenumbering{roman}
+\thispagestyle{empty}
+
+\[ \]
+\vspace{-1.9in}
+
+\begin{center}
+{\mytitle}
+
+\vspace{1.4in}
+
+\singlespace{A thesis presented to the faculty of\\
+San Francisco State University\\
+In partial fulfilment of\\
+The Requirements for\\ The Degree}
+
+\vspace{.5in}
+
+\singlespace{\mydegree \\ In\\ \myfield}
+
+\vspace{3.1in}
+
+{by \\[12pt] 
+\myname \\[12pt]
+San Francisco, California\\[12pt]
+\thismonth
+\thisyear}
+\end{center}
+
+\newpage
+\textheight=7.1in    % For all pages after the Title Page -- try making this number smaller (7.0 or 6.9) if the bottom margins are too small
+\footskip=1.1in      % Distance from bottom of text to the page number (for page number at bottom of page)
+\thispagestyle{empty}
+
+$\mbox{}$
+\vspace{3in}
+\begin{center}
+\singlespace{
+Copyright by\\ 
+\myname \\
+\thisyear
+}
+\end{center}
+
+\newpage
+\thispagestyle{empty}
+\[ \]
+\vspace{-1.8in}
+\begin{center}
+{CERTIFICATION OF APPROVAL}
+\end{center}
+\vspace{.6in}
+\begin{quote}
+I certify that I have read {\it \mytitle} by \myname and that in my opinion this work meets the criteria for approving a thesis submitted in partial fulfillment of the requirements
+for the degree: \mydegree in \myfield at San Francisco State University.
+\end{quote}
+
+\vspace{0.75in}
+
+\hspace*{\fill}\parbox{3.5in}{
+\singlespace{
+
+\hrule{\hspace{3.5in}} \\ 
+Your adviser\\
+Associate Professor of \myfield
+
+\vspace{1in}
+
+\hrule{\hspace{3.5in}} \\
+Your committee member\\
+Assistant Professor of \myfield 
+
+\vspace{1in}
+
+\hrule{\hspace{3.5in}} \\
+Your committee member\\
+Professor of \myfield 
+
+}
+}
+
+\newpage
+\thispagestyle{empty}
+\[ \]
+\vspace{-1.8in}
+\begin{center}
+{\mytitle} \\
+
+\vspace{.5in}
+
+\singlespace{
+\myname \\
+San Francisco State University \\ 
+\thisyear \\
+}
+
+\end{center}
+
+\vspace{.3in}
+
+\doublespacing{\noindent
+Your abstract comes here. % maximum one page
+}
+
+\vspace*{\fill}
+
+\hspace*{\fill}
+
+\noindent
+I certify that the Abstract is a correct representation of the content of this thesis.
+
+\vspace{.6in} 
+
+\hrule{\hspace{3.75in}} \\[-10pt]
+Chair, Thesis Committee 
+\hspace{2.5in}
+Date
+
+\newpage
+\[ \]
+\vspace{-1.8in}
+\begin{center}{ACKNOWLEDGMENTS}\end{center}
+
+\vspace{.3in}
+\begin{quote}
+\noindent
+I thank everybody and their mothers\dots (optional).
+\end{quote}
+
+\renewcommand{\contentsname}{\vspace{-1.8in} \begin{center} \normalsize \rm TABLE OF CONTENTS \end{center}}
+\renewcommand{\listfigurename}{\vspace{-1.8in} \begin{center} \normalsize \rm LIST OF FIGURES \end{center}}
+\renewcommand{\listtablename}{\vspace{-1.8in} \begin{center} \normalsize \rm LIST OF TABLES \end{center}}
+\renewcommand{\cftchapfont}{\normalfont}
+\renewcommand{\cftchappagefont}{\normalfont}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} % formatting commands for table of contents
+\renewcommand{\cftsecfont}{\normalfont}
+\renewcommand{\cftsecpagefont}{\normalfont}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+
+\newpage \tableofcontents 
+\newpage Table \hfill Page \listoftables % comment out if you don't use tables
+\newpage Figure \hfill Page \listoffigures % comment out if you don't use figures
+
+\newpage
+\pagestyle{myheadings}
+\pagenumbering{arabic} 
+\setcounter{page}{1}
