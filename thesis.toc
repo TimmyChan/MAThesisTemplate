@@ -1,0 +1,10 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Introduction to the Introduction}{1}
+\contentsline {subsection}{\numberline {1.1.1}Introduction to the Introduction to the Introduction}{1}
+\contentsline {chapter}{\numberline {2}The Real Stuff}{4}
+\contentsline {section}{\numberline {2.1}Various Tricks}{4}
+\contentsline {section}{\numberline {2.2}Math}{6}
+\contentsline {section}{\numberline {2.3}Graphics}{8}
+\contentsline {section}{\numberline {2.4}Bibliographic Stuff}{9}
+\contentsline {chapter}{Appendix A: Triangulations of Polytopes}{10}
+\contentsline {chapter}{Bibliography}{10}

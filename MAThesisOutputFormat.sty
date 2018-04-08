@@ -1,15 +1,85 @@
-% preamble.tex, to be used with thesis.tex
-% This contains the TeX definitions for layout, style, etc., as well as the first few pages of your thesis: title page, copyright page, approval page, abstract, acknowledgments, tables of contents, tables, and figures.
-% The layout commands should give the correct margins according to the graduate division's guidelines
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{MAThesisOutputFormat}[2018/02/25 MAThesisOutputFormat]
 
-%%%%% TeX class and packages
-
-\documentclass[12pt,oneside]{sfsuthesis}
-
-\usepackage{amsthm,amsmath,amssymb,amsfonts,latexsym,graphicx,enumerate,setspace,verbatim,tocloft,rotating}
-%\usepackage{color}                    % For creating colored text and background
-%\usepackage{hyperref}                 % For creating hyperlinks in cross references
+\RequirePackage{amsthm,amsmath,amssymb,amsfonts,latexsym,graphicx,enumerate,setspace,verbatim,tocloft,rotating}
+%\RequirePackage{color}                       % For creating colored text and background
+%\RequirePackage{hyperref}                 % For creating hyperlinks in cross references
 % other possibly useful packages: textcomp,mathrsfs,amscd,epsfig,euscript,cancel
+
+%%%%% Draft title page
+\newcommand\thesistitle{
+\thispagestyle{empty}
+
+\[ \]
+\vspace{1in}
+
+\begin{center}
+{\Large \bf \mytitle}
+
+\vspace{1.5in}
+
+\myname
+
+\vspace{1.5in}
+
+Version of \today
+
+\end{center}
+
+\newpage
+\tableofcontents 
+
+}
+
+
+
+
+\DeclareOption{draft}{
+%%%%% Layout
+\voffset=-.8in 
+\oddsidemargin=0in
+\evensidemargin=0in
+\textwidth=6.5in
+\textheight=9in
+\pagestyle{plain}
+
+%%%%% Style of theorems, definitions, examples, equations, etc.
+
+\theoremstyle{plain} % Heading is bold, text italic.
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}{Conjecture}[chapter]
+
+\theoremstyle{definition}  % Heading is bold, text is roman
+\newtheorem{definition}{Definition}[chapter]
+\newtheorem{example}{Example}[chapter]
+
+\theoremstyle{remark}  % Heading is italic, text is roman
+\newtheorem*{remark}{Remark}
+\newtheorem*{note}{Note}
+\newtheorem{claim}{Claim}[chapter]
+
+%%%%% Appendix style
+
+\renewcommand\appendix[1]{
+\chapter*{#1}
+\addcontentsline{toc}{chapter}{#1}
+}
+
+%%%%% Comment command, useful for editing
+
+\renewcommand\comment[1]{{\sc Comment:} {\bf #1}}
+
+}
+
+
+
+
+
+%======= Copied from Preamble.tex 
+\DeclareOption{final}{
 
 %%%%% Layout
 % These numbers might depend on your printer. Check the margins and compare them to the Graduate Division's
@@ -63,9 +133,7 @@
 \addcontentsline{toc}{chapter}{#1}
 }
 
-%%%%% Title page
-
-\begin{document}
+\renewcommand\thesistitle{
 
 \pagenumbering{roman}
 \thispagestyle{empty}
@@ -214,3 +282,8 @@ I thank everybody and their mothers\dots (optional).
 \pagestyle{myheadings}
 \pagenumbering{arabic} 
 \setcounter{page}{1}
+
+}
+}
+
+\ProcessOptions\relax

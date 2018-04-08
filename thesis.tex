@@ -16,17 +16,26 @@
 \newcommand{\R}{\mathbb{R}}
 \newcommand{\C}{\mathbb{C}}
 
-% One of the following two has to be commented out:
-\include{draftpreamble}  % eco-friendly draft version
-%\include{preamble}   % final version, formatted according to the Graduate Division's guidelines
 
+\documentclass[12pt,oneside]{sfsuthesis}  
+%WHEN THESIS IS COMPLETED, CHANGE THE NEXT LINE FROM draft TO final, then the paper will be formatted according to the Graduate Division's guidelines
+\usepackage[final]{MAThesisOutputFormat}
+\RequirePackage{standalone}
+
+
+
+\begin{document}
+\thesistitle
 % Main body of work:
-\include{main}
+\input{content}
 
 % Bibliography (calls up the entries in thesis.bib if you run bibTeX):
 \bibliographystyle{amsplain}
 \addcontentsline{toc}{chapter}{Bibliography}
 \singlespacing
 \bibliography{thesis}
+
+%BibLatex Version:
+
 
 \end{document}

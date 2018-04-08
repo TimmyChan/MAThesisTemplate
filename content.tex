@@ -68,7 +68,7 @@ you can reference them most lazily using \eqref{eulereq}.
 \def\v{{\mathbf v}}
 \def\P{{\mathcal P}}
 \def\Z{\mathbb{Z}}
-\renewcommand\floor[1]{\left\lfloor {#1} \right\rfloor} 
+\newcommand\floor[1]{\left\lfloor {#1} \right\rfloor} 
 
 There are two ways to define internal macros: {\tt $\backslash$def} and {\tt $\backslash$newcommand}. The difference is that the former overwrites any possibly existing command,
 where as the latter induces a \LaTeX \ complaint if you're redefining an existing command (in which case you should use {\tt $\backslash$renewcommand} instead). Since I'm lazy,

@@ -91,8 +91,8 @@
 %%   Grave accent  \`     Left brace    \{     Vertical bar  \|
 %%   Right brace   \}     Tilde         \~}
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{book}
-              [1995/12/20 v1.3q
+\ProvidesClass{sfsuthesis}
+              [2018/02/26 v1.3q
  Standard LaTeX document class]
 \newcommand\@ptsize{}
 \newif\if@restonecol
