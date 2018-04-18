@@ -1,12 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.2)  17 APR 2018 20:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  18 APR 2018 10:37
 entering extended mode
-**./thesis.tex
-(thesis.tex
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**thesis
+(./thesis.tex
 LaTeX2e <2017-04-15>
-Babel <3.17> and hyphenation patterns for 75 language(s) loaded.
-(sfsuthesis.cls
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+(./sfsuthesis.cls
 Document Class: sfsuthesis 2018/02/26 v1.3q Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk12.clo"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -22,11 +24,11 @@ File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(MAThesisOutputFormat.sty
+(./MAThesisOutputFormat.sty
 Package: MAThesisOutputFormat 2018/02/25 MAThesisOutputFormat
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
-Package: amsthm 2017/10/31 v2.20.4
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
 \thm@style=\toks14
 \thm@bodyfont=\toks15
 \thm@headfont=\toks16
@@ -37,24 +39,24 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@headsep=\skip45
 \dth@everypar=\toks19
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2017/09/02 v2.17a AMS math features
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks20
 \ex@=\dimen103
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen104
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count88
@@ -95,62 +97,70 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\latexsym.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks25
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count100
 ))
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks26
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks27
 \verbatim@line=\toks28
 \verbatim@in@stream=\read1
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tocloft\tocloft.sty"
-Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
-Package tocloft Info: The document has chapter divisions on input line 51.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 44.
 \cftparskip=\skip49
 \cftbeforetoctitleskip=\skip50
 \cftaftertoctitleskip=\skip51
@@ -180,102 +190,96 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforefigskip=\skip75
 \cftfigindent=\skip76
 \cftfignumwidth=\skip77
-\c@lofdepth=\count100
-\c@lotdepth=\count101
+\c@lofdepth=\count101
+\c@lotdepth=\count102
 \cftbeforelottitleskip=\skip78
 \cftafterlottitleskip=\skip79
 \cftbeforetabskip=\skip80
 \cfttabindent=\skip81
 \cfttabnumwidth=\skip82
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\rotating.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count102
+\c@r@tfl@t=\count103
 \rotFPtop=\skip83
 \rotFPbot=\skip84
 \rot@float@box=\box28
 \rot@mess@toks=\toks29
 )
-\c@theorem=\count103
-\c@conjecture=\count104
-\c@definition=\count105
-\c@example=\count106
-\c@claim=\count107
+\c@theorem=\count104
+\c@conjecture=\count105
+\c@definition=\count106
+\c@example=\count107
+\c@claim=\count108
 )
-(C:\Users\EVKae\AppData\Roaming\MiKTeX\2.9\tex\latex\standalone\standalone.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/standalone/standalone.sty
 Package: standalone 2015/07/15 v1.2 Package to include TeX sub-files with pream
 bles
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks30
 \XKV@tempa@toks=\toks31
 )
-\XKV@depth=\count108
+\XKV@depth=\count109
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(C:\Users\EVKae\AppData\Roaming\MiKTeX\2.9\tex\latex\currfile\currfile.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/currfile/currfile.sty
 Package: currfile 2015/04/23 v0.7c Provides the file path elements of the curre
 nt input file
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(C:\Users\EVKae\AppData\Roaming\MiKTeX\2.9\tex\latex\filehook\filehook.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/filehook/filehook.sty
 Package: filehook 2011/10/12 v0.5d Hooks for input files
 )
-\c@currfiledepth=\count109
+\c@currfiledepth=\count110
 )
-(C:\Users\EVKae\AppData\Roaming\MiKTeX\2.9\tex\latex\gincltex\gincltex.sty
-(C:\Users\EVKae\AppData\Roaming\MiKTeX\2.9\tex\latex\svn-prov\svn-prov.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/gincltex/gincltex.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/svn-prov/svn-prov.sty
 Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
 )
 Package: gincltex 2011/09/04 v0.3 Include external LaTeX files like graphics
 
-(C:\Users\EVKae\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\adjustbox.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
 
-(C:\Users\EVKae\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\adjcalc.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
-(C:\Users\EVKae\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\trimclip.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/adjustbox/trimclip.sty
 Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
 
-(C:\Users\EVKae\AppData\Roaming\MiKTeX\2.9\tex\latex\collectbox\collectbox.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box29
 )
@@ -284,7 +288,8 @@ Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \tc@urx=\dimen116
 \tc@ury=\dimen117
 Package trimclip Info: Using driver 'tc-pdftex.def'.
-(C:\Users\EVKae\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\tc-pdftex.def
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen118
@@ -292,23 +297,24 @@ File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 \adjbox@Depth=\dimen120
 \adjbox@Totalheight=\dimen121
 
-(C:\Users\EVKae\AppData\Roaming\MiKTeX\2.9\tex\latex\ifoddpage\ifoddpage.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count110
+\c@checkoddpage=\count111
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box30
-\sift@deathcycles=\count111
+\sift@deathcycles=\count112
 \@vwid@loff=\dimen122
 \@vwid@roff=\dimen123
 ))
 \gincltex@box=\box31
 )
-(C:\Users\EVKae\AppData\Roaming\MiKTeX\2.9\tex\latex\filemod\filemod-expmin.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/filemod/filemod-expmin.sty
 Package: filemod-expmin 2011/09/19 v1.2 Get and compare file modification times
  (expandable; minimal)
-)) (thesis.aux)
+))
+(./thesis.aux)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -324,82 +330,178 @@ LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 
-(C:\Users\EVKae\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count112
+\scratchcounter=\count113
 \scratchdimen=\dimen124
 \scratchbox=\box32
-\nofMPsegments=\count113
-\nofMParguments=\count114
+\nofMPsegments=\count114
+\nofMParguments=\count115
 \everyMPshowfont=\toks32
-\MPscratchCnt=\count115
+\MPscratchCnt=\count116
 \MPscratchDim=\dimen125
-\MPnumerator=\count116
-\makeMPintoPDFobject=\count117
+\MPnumerator=\count117
+\makeMPintoPDFobject=\count118
 \everyMPtoPDFconversion=\toks33
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 LaTeX Font Info:    Try loading font information for U+msa on input line 28.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 28.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+lasy on input line 28.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [1
 
-{C:/Users/EVKae/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] (ab
-stract.tex) [4]
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+ (./abstract.tex) [4] (./acknowledgements.tex) [5] (./thesis.toc)
+\tf@toc=\write3
+\openout3 = `thesis.toc'.
 
-! LaTeX Error: File `acknowledgements.tex' not found.
+ [6] (./thesis.lot)
+\tf@lot=\write4
+\openout4 = `thesis.lot'.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
+ [7]
+(./thesis.lof)
+\tf@lof=\write5
+\openout5 = `thesis.lof'.
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.28 \thesistitle
-                 
-*** (cannot \read from terminal in nonstop modes)
+ [8] (./content.tex
+Chapter 1.
 
- 
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[1
+
+]
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[2]
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[3]
+Chapter 2.
+
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[4
+
+]
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[5]
+
+Package amsthm Warning: The \qedhere command may not work correctly here on inp
+ut line 123.
+
+
+Package amsthm Warning: The \qedhere command may not work correctly here on inp
+ut line 132.
+
+
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[6]
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[7] <intrograph.pdf, id=62, 149.55574pt x 131.48824pt>
+File: intrograph.pdf Graphic file (type pdf)
+ <use intrograph.pdf>
+Package pdftex.def Info: intrograph.pdf used on input line 179.
+(pdftex.def)             Requested size: 65.76135pt x 57.81621pt.
+
+Overfull \hbox (6.76225pt too wide) in paragraph at lines 198--200
+[]  \OT1/cmr/m/n/12 any-where. 
+ []
+
+
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[8 <./intrograph.pdf>]
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[9]) (./thesis.bbl
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[10
+
+])
+Overfull \vbox (7.73332pt too high) has occurred while \output is active []
+
+
+[11
+
+] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 4126 strings out of 493303
- 60199 string characters out of 3138857
- 121646 words of memory out of 3000000
- 7561 multiletter control sequences out of 15000+200000
- 8950 words of font info for 36 fonts, out of 3000000 for 9000
+ 4220 strings out of 492995
+ 61554 string characters out of 6132704
+ 130287 words of memory out of 5000000
+ 7628 multiletter control sequences out of 15000+600000
+ 10981 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,5n,39p,255b,113s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 51i,16n,40p,246b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pf
+b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy1
+0.pfb>
+Output written on thesis.pdf (19 pages, 146662 bytes).
+PDF statistics:
+ 122 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+
