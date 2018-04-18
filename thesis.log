@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.2)  26 FEB 2018 00:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.2)  17 APR 2018 20:36
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -377,126 +377,29 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 28.
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [1
 
-{C:/Users/EVKae/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4]
- [5] (thesis.toc)
-\tf@toc=\write3
-\openout3 = `thesis.toc'.
+{C:/Users/EVKae/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] (ab
+stract.tex) [4]
 
+! LaTeX Error: File `acknowledgements.tex' not found.
 
-[6] (thesis.lot)
-\tf@lot=\write4
-\openout4 = `thesis.lot'.
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
 
- [7] (thesis.lof)
-\tf@lof=\write5
-\openout5 = `thesis.lof'.
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.28 \thesistitle
+                 
+*** (cannot \read from terminal in nonstop modes)
 
- [8] (content.tex
-Chapter 1.
-
-Overfull \vbox (7.73332pt too high) has occurred while \output is active []
-
-
-[1
-
-]
-Overfull \vbox (7.73332pt too high) has occurred while \output is active []
-
-
-[2]
-Overfull \vbox (7.73332pt too high) has occurred while \output is active []
-
-
-[3]
-Chapter 2.
-
-Overfull \vbox (7.73332pt too high) has occurred while \output is active []
-
-
-[4
-
-]
-Overfull \vbox (7.73332pt too high) has occurred while \output is active []
-
-
-[5]
-
-Package amsthm Warning: The \qedhere command may not work correctly here on inp
-ut line 123.
-
-
-Package amsthm Warning: The \qedhere command may not work correctly here on inp
-ut line 132.
-
-
-Overfull \vbox (7.73332pt too high) has occurred while \output is active []
-
-
-[6]
-Overfull \vbox (7.73332pt too high) has occurred while \output is active []
-
-
-[7]
-<intrograph.pdf, id=61, 149.55574pt x 131.48824pt>
-File: intrograph.pdf Graphic file (type pdf)
-<use intrograph.pdf>
-Package pdftex.def Info: intrograph.pdf  used on input line 179.
-(pdftex.def)             Requested size: 65.76135pt x 57.81621pt.
-
-Overfull \hbox (6.76225pt too wide) in paragraph at lines 198--200
-[]  \OT1/cmr/m/n/12 any-where. 
- []
-
-
-LaTeX Warning: Citation `athanasiadismagic' on page 8 undefined on input line 2
-09.
-
-
-Overfull \vbox (7.73332pt too high) has occurred while \output is active []
-
-
-[8 <./intrograph.pdf>]
-Overfull \vbox (7.73332pt too high) has occurred while \output is active []
-
-
-[9])
-No file thesis.bbl.
-
-Overfull \vbox (7.73332pt too high) has occurred while \output is active []
-
-
-[10
-
-] (thesis.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 4162 strings out of 493303
- 61451 string characters out of 3138857
- 125691 words of memory out of 3000000
- 7581 multiletter control sequences out of 15000+200000
- 10981 words of font info for 43 fonts, out of 3000000 for 9000
+ 4126 strings out of 493303
+ 60199 string characters out of 3138857
+ 121646 words of memory out of 3000000
+ 7561 multiletter control sequences out of 15000+200000
+ 8950 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,16n,39p,255b,351s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/lasy10.pfb>
-Output written on thesis.pdf (18 pages, 157473 bytes).
-PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 51i,5n,39p,255b,113s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
