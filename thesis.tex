@@ -9,12 +9,6 @@
 \newcommand\thismonth{Month } % graduation month: May / August / December
 \newcommand\thisyear{Year } % e.g., 2014
 
-% Shortcuts (add your own...):
-\newcommand{\N}{\mathbb{N}}
-\newcommand{\Z}{\mathbb{Z}}
-\newcommand{\Q}{\mathbb{Q}}
-\newcommand{\R}{\mathbb{R}}
-\newcommand{\C}{\mathbb{C}}
 
 \documentclass[12pt,oneside]{sfsuthesis}  
 %WHEN THESIS IS COMPLETED, CHANGE THE NEXT LINE FROM draft TO final, then the paper will be formatted according to the Graduate Division's guidelines
@@ -22,12 +16,21 @@
 \RequirePackage{standalone}
 
 
+%==========%
+% biblatex %
+%==========%
+
+\usepackage[backend=biber,style=numeric]{biblatex}
+\addbibresource{thesis.bib}
+
+
+
 %=========================%
 % CUSTOM PACKAGES GO HERE %
 %=========================%
 
 
-
+%\usepackage{TCbasic}
 
 
 
@@ -38,12 +41,19 @@
 % Main body of work:
 \input{content}
 
-% Bibliography (calls up the entries in thesis.bib if you run bibTeX):
-\bibliographystyle{amsplain}
-\addcontentsline{toc}{chapter}{Bibliography}
-\singlespacing
-\bibliography{thesis}
+%==============%
+% Bibliography %
+%==============%
 
-%BibLatex Version:
+% BibTex %
+%\bibliographystyle{amsplain}
+%\addcontentsline{toc}{chapter}{Bibliography}
+%\singlespacing
+%\bibliography{thesis}
+
+
+
+%BibLatex :
+\printbibliography
 
 \end{document}
