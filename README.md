@@ -34,7 +34,7 @@ Custom definitions and packages should be made and included in thesis.tex, so th
 
 * ```acknowledgements.tex``` contains the optional acknowledgments section - simply leave this file empty if you do not wish to give acknowledgements.
 
-For comments, problems, or suggestions, please contact Matt Beck (```mattbeck@sfsu.edu```).
+For comments, problems, or suggestions, please contact Dr. Matthias Beck (```mattbeck AT sfsu.edu```).
 
 ## Filing the Thesis
 Postscript: Here is an "algorithm" how to file your thesis (thanks to Eric Etu):
