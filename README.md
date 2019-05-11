@@ -1,18 +1,18 @@
 # MAThesisTemplate
 LaTeX files for MA theses at San Francisco State University
-[Version 1.1 of 22 Apr 2017]
+[Version 1.2 --- May 11th 2019]
 ## Contents
-This archive should contain the following files:
+This archive contains the following files:
 ```
 abstract.tex
 acknowledgements.tex
-content.tex
+content.tex <--- Actual content, or chapters with links to subfiles.
 intrograph.pdf
 MAThesisOutputFormat.sty
 README.md
 sfsuthesis.cls
-thesis.bib
-thesis.tex
+thesis.bib <--- BibLaTeX references go here
+thesis.tex <--- Compile this for formatting
 ```
 ## Instructions
 
@@ -30,7 +30,7 @@ Custom definitions and packages should be made and included in thesis.tex, so th
 
 * ```thesis.bib``` contains the bibliography entries (which can be obtained from databases such as MathSciNet). Run LaTeX, BibTeX, LaTeX on thesis.tex to produce the bibliography.
 
-* ```abstract.tex``` contains the optional abstract section - simply leave this file empty if you do not wish to have an abstract.
+* ```abstract.tex``` contains the abstract section - simply leave this file empty if you do not wish to have an abstract.
 
 * ```acknowledgements.tex``` contains the optional acknowledgments section - simply leave this file empty if you do not wish to give acknowledgements.
 
