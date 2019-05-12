@@ -1,0 +1,16 @@
+[0] Config.pm:302> INFO - This is Biber 2.10
+[0] Config.pm:305> INFO - Logfile is 'thesis.blg'
+[37] biber-MSWIN64:313> INFO - === 
+[80] Biber.pm:371> INFO - Reading 'thesis.bcf'
+[190] Biber.pm:857> INFO - Found 1 citekeys in bib section 0
+[208] Biber.pm:3976> INFO - Processing section 0
+[223] Biber.pm:4136> INFO - Looking for bibtex format file 'thesis.bib' for section 0
+[225] bibtex.pm:1444> INFO - Reading ascii input as UTF-8
+[228] bibtex.pm:1490> INFO - LaTeX decoding ...
+[237] bibtex.pm:1306> INFO - Found BibTeX data source 'thesis.bib'
+[258] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[258] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[258] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[258] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[261] bbl.pm:617> INFO - Writing 'thesis.bbl' with encoding 'ascii'
+[261] bbl.pm:720> INFO - Output to thesis.bbl

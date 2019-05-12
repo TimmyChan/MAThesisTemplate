@@ -1,16 +1,32 @@
-%================================================================================================% 
-% thesis.tex                                                                                     %
-% This is the main file, which calls up preamble.tex, frontmatter.tex, and thesis.bib as needed. %
-%================================================================================================%
+%=================================================================% 
+% thesis.tex																						  
+%
+% Updated: May 2019
+%                                        
+% Main file for compiler which:                                 
+%	+ Defines the custom fields used in MAThesisOutputFormat.sty,
+%   + Offers "final" vs "draft" formatting for speedy compiling 
+%		during edits,
+%   + Uses standalone package to allow the use of \input command 
+%		while ignoring preambles of subfiles, 
+%   + Uses BibLaTeX by default; bibtex code is in the comments, 
+%   + Calls on content.tex, which contains actual content,
+%   ! Uses the file thesis.bib for references,
+%   ! Displays a list of tables and list of figures by default, 
+%		please visit lines 279 to 281 of MAThesisOutputFormat.sty
+%		to comment out the lines as necessary.
+%
+%=================================================================%
 
-% Frontmatter shortcuts; note the extra space at the end, which is unfortunately necessary:      
+
+
+% Note the extra space at the end, which is unfortunately necessary:      
 \newcommand\myname{Your Name }
 \newcommand\mytitle{YOUR TITLE } % The graduate division requires this to be in caps.
 \newcommand\mydegree{Master of Arts } % change to  Master of Science if applicable
 \newcommand\myfield{Your Field } % e.g., Mathematics
 \newcommand\thismonth{Month } % graduation month: May / August / December
 \newcommand\thisyear{Year } % e.g., 2014
-
 \newcommand\myadviser{Your adviser } % Adviser
 \newcommand\myadviserstitle{Associate Professor }
 \newcommand\committeememberone{Your committee member } % Committee member 1
@@ -19,8 +35,19 @@
 \newcommand\committeemembertwotitle{Professor }
 
 \documentclass[12pt,oneside]{sfsuthesis}  
-%WHEN THESIS IS COMPLETED, CHANGE THE NEXT LINE FROM draft TO final, then the paper will be formatted according to the Graduate Division's guidelines
-\usepackage[final]{MAThesisOutputFormat}
+
+
+%==================================================================% 
+%                                                                  %
+%      WHEN THESIS IS COMPLETED, CHANGE THE NEXT LINE FROM         %    
+%		                                                           % 
+%		                  draft TO final,                          %
+%                                                                  %
+% to change format according to the Graduate Division's guidelines %
+%                                                                  %
+%==================================================================% 
+\usepackage[draft]{MAThesisOutputFormat}
+
 \RequirePackage{standalone}
 
 
@@ -36,18 +63,17 @@
 %=========================%
 % CUSTOM PACKAGES GO HERE %
 %=========================%
-
-
 %\usepackage{TCbasic}
 
 
-
-
-
 \begin{document}
+
 \thesistitle
+
 % Main body of work:
 \input{content}
+
+
 
 %==============%
 % Bibliography %
@@ -59,9 +85,12 @@
 %\singlespacing
 %\bibliography{thesis}
 
-
-
 %BibLatex :
 \printbibliography
 
 \end{document}
+
+
+
+
+% TLC May 2019
