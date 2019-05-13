@@ -1,14 +1,15 @@
-% content.tex, to be used with thesis.tex
+% content.tex, to be used with thesis.tex 
+% 	(compile thesis.tex for formatting instead).
 % This contains the main work of your thesis
 
-\documentclass{article}
-\usepackage[utf8]{inputenc}
+\documentclass[12pt,oneside]{sfsuthesis}  
+\usepackage[draft]{MAThesisOutputFormat}
+\RequirePackage{standalone}
+\usepackage[backend=biber,style=numeric]{biblatex}
+\addbibresource{thesis.bib}
+\usepackage{xcolor} % here as example, can be removed
 
-\title{     }
-\author{     }
-\date{     }
 
-\usepackage{xcolor}
 \begin{document}
 
 \chapter{Introduction}
@@ -111,9 +112,10 @@ One of my favorite packages is {\tt enumerate}:
 
 \todo{I stole the idea of a to-do box from a friend. This is useful when editing a paper and you want to remind your co-author or yourself about something\dots}
 
-\textcolor{
+{
+\color{blue}
 When writing text that require many sittings, I enjoy changing the font color, which is an easy way to show progress in a long project. 
-
+}
 \input{subfile.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
