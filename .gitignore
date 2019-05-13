@@ -4,6 +4,8 @@ desktop.ini
 
 *.bbl
 *.bcf
+*.blg
+*.dvi
 *.lof
 
 *.log
@@ -11,7 +13,5 @@ desktop.ini
 *.lot
 
 *.toc
-
-*.bcf
 *.xml
 *.gz
