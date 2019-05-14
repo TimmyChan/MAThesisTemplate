@@ -40,20 +40,20 @@ For comments, problems, or suggestions, please contact Dr. Matthias Beck (```mat
 ## Filing the Thesis
 Postscript: Here is an "algorithm" how to file your thesis (Updated Spring 2019):
 1) Preliminary format check (ADM 254): 
-	a) Print out all of your "preamble" pages (Cover Page, Copyright, Certification of Approval, Abstract, Table of Contents, List of Figures, etc.), the first couple pages of your first chapter, and examples of figures, tables and appendices.
-	b) Bring all this to the Grad Office (ADM 254) to have them do a preliminary format check (you can just drop by).
-	c) Make necessary changes instructed by the format check reviewer. 
-	d) Do not print your thesis on "thesis paper" (e.g., at Rapid Copy, in Cesar Chavez or the Bookstore) until instructed by the format check reviewer and verbally approved by your thesis committee.
-5) Immediately after your defense:
+     a) Print out all of your "preamble" pages (Cover Page, Copyright, Certification of Approval, Abstract, Table of Contents, List of Figures, etc.), the first couple pages of your first chapter, and examples of figures, tables and appendices.
+     b) Bring all this to the Grad Office (ADM 254) to have them do a preliminary format check (you can just drop by).
+     c) Make necessary changes instructed by the format check reviewer. 
+     d) Do not print your thesis on "thesis paper" (e.g., at Rapid Copy, in Cesar Chavez or the Bookstore) until instructed by the format check reviewer and verbally approved by your thesis committee.
+2) Immediately after your defense:
      a) obtain signatures from your committee members on the "Certification of Approval" page,
      b) obtain signature from your committee chair on the "Abstract" page.
      c) obtain signature from your committee chair on the Thesis Receipt (given at the preliminary format check), and complete the Public Access/Embargo section.
-6) Final format check (ADM 254):   
+3) Final format check (ADM 254):   
 	a) They re-verify proper formatting and original signatures. You should bring your final printed copy for this step.
 	b) If the formatting is not acceptable, then they'll send it back to you, you'll have to fix the formatting, re-print, get signatures, and re-submit (repeat steps 5-6).  
 	c) Once everything looks good, they'll give you the thesis back, along with a signed thesis receipt.
 	d) If your thesis committee changed, submit a petition for committee revision, found on the Graduate Studies website.
-7) Binding Fee + Submission (Bursur's Office + Library Room 80):
+4) Binding Fee + Submission (Bursur's Office + Library Room 80):
 	a) Bring the thesis down to the Bursur's Office on the first floor of the Administration building, and keep the receipt as proof of payment. 
 	b) Take your unbound thesis and proof of payment to the Digital Scholarship Center.
 	c) Maintain your copy of the Thesis Receipt until you receive confirmation from the university that you have earned your degree.
