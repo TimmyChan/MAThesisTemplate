@@ -36,21 +36,44 @@ Custom definitions and packages should be made and included in thesis.tex, so th
 
 For comments, problems, or suggestions, please contact Dr. Matthias Beck (```mattbeck AT sfsu.edu```).
 
+
 ## Filing the Thesis
-Postscript: Here is an "algorithm" how to file your thesis (thanks to Eric Etu):
-1) Print out all of your "preamble" pages (Cover Page, Copyright, Certification of Approval, Abstract, Table of Contents, List of Figures, etc.), the first couple pages of your first
-chapter, and examples of figures, tables and appendices.
-2) Bring all this to the Grad Office (ADM 254) to have them do a preliminary format check (you can just drop by).
-3) After this first format check, make necessary changes instructed by the format check reviewer. 
-4) Do not print your thesis on "thesis paper" (e.g., at Rapid Copy, in Cesar Chavez or the Bookstore) until instructed by the format check reviewer and verbally approved by your
-thesis committee.
-5) Get signatures from your committee members on the "Certification of Approval" page and by your committee chair on the "Abstract" page on that good copy.
-6) Bring the entire unbound thesis to the Grad Office.  
-    a) They re-verify proper formatting, correct thesis paper and original signatures.  
-    b) If not ok, they'll send it back to you, you'll have to fix things, re-print, get signatures, and re-submit.  
-    c) Once everything looks good, they'll give you the thesis back, along with a signed thesis receipt.  
-7) Bring the thesis, thesis receipt, and (if applicable) CD's of code in individual paper CD sleeves, to Rapid Copy (2nd floor of Cesar Chavez, Room 110).   
-    a) They print & bind all your copies (pay appropriate binding fees).  You'll need to print one copy for the library, possibly one for your department, your adviser, your grandmother, etc.  
-    b) Rapid Copy will provide you with a receipt to keep for your records and will send a receipt directly back to the Grad Office to verify that you've turned in your thesis. Keep your Thesis Receipt until you receive official verification from the Division of Graduate Studies that you have earned your degree.  
-    c) Once the copies are printed & bound, Rapid Copy will contact you to pick them up.  
-8) Distribute the copies to all the people above.
+Postscript: Here is an "algorithm" how to file your thesis (Updated Spring 2019):
+1) Preliminary format check (ADM 254): 
+	a) Print out all of your "preamble" pages (Cover Page, Copyright, Certification of Approval, Abstract, Table of Contents, List of Figures, etc.), the first couple pages of your first chapter, and examples of figures, tables and appendices.
+	b) Bring all this to the Grad Office (ADM 254) to have them do a preliminary format check (you can just drop by).
+	c) Make necessary changes instructed by the format check reviewer. 
+	d) Do not print your thesis on "thesis paper" (e.g., at Rapid Copy, in Cesar Chavez or the Bookstore) until instructed by the format check reviewer and verbally approved by your thesis committee.
+5) Immediately after your defense:
+	a) obtain signatures from your committee members on the "Certification of Approval" page,
+	b) obtain signature from your committee chair on the "Abstract" page.
+	c) obtain signature from your committee chair on the Thesis Receipt (given at the preliminary format check), and complete the Public Access/Embargo section.
+6) Final format check (ADM 254):   
+	a) They re-verify proper formatting and original signatures. You should bring your final printed copy for this step.
+	b) If the formatting is not acceptable, then they'll send it back to you, you'll have to fix the formatting, re-print, get signatures, and re-submit (repeat steps 5-6).  
+	c) Once everything looks good, they'll give you the thesis back, along with a signed thesis receipt.
+	d) If your thesis committee changed, submit a petition for committee revision, found on the Graduate Studies website.
+7) Binding Fee + Submission (Bursur's Office + Library Room 80):
+	a) Bring the thesis down to the Bursur's Office on the first floor of the Administration building, and keep the receipt as proof of payment. 
+	b) Take your unbound thesis and proof of payment to the Digital Scholarship Center.
+	c) Maintain your copy of the Thesis Receipt until you receive confirmation from the university that you have earned your degree.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
