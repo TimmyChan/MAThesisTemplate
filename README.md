@@ -45,18 +45,19 @@ Postscript: Here is an "algorithm" how to file your thesis (Updated Spring 2019)
     3. Make necessary changes instructed by the format check reviewer.    
     4. Do not print your thesis on "thesis paper" (e.g., at Rapid Copy, in Cesar Chavez or the Bookstore) until instructed by the format check reviewer and verbally approved by your thesis committee.
 2. Immediately after your defense:
-    1. obtain signatures from your committee members on the "Certification of Approval" page,
-    2. obtain signature from your committee chair on the "Abstract" page.
-    3. obtain signature from your committee chair on the Thesis Receipt (given at the preliminary format check), and complete the Public Access/Embargo section.
+    1. Obtain signatures from your committee members on the "Certification of Approval" page,
+    2. Obtain signature from your committee chair on the "Abstract" page.
+    3. Obtain signature from your committee chair on the Thesis Receipt (given at the preliminary format check), and complete the Public Access/Embargo section.
 3. Final format check (ADM 254):   
-    1. They re-verify proper formatting and original signatures. You should bring your final printed copy for this step.
-    2. If the formatting is not acceptable, then they'll send it back to you, you'll have to fix the formatting, re-print, get signatures, and re-submit (repeat steps 5-6).  
+    1. Graduate Studies will re-verify proper formatting and original signatures. Bring your final printed copy for this step.
+    2. If the formatting is not acceptable, then they'll send it back to you, you'll have to fix the formatting, re-print, get signatures, and re-submit.  
     3. Once everything looks good, they'll give you the thesis back, along with a signed thesis receipt.
     * If your thesis committee changed, submit a petition for committee revision, found on the Graduate Studies website.
 4. Binding Fee + Submission (Bursur's Office + Library Room 80):
     1. Bring the thesis down to the Bursur's Office on the first floor of the Administration building, and keep the receipt as proof of payment. 
     2. Take your unbound thesis and proof of payment to the Digital Scholarship Center.
     3. Maintain your copy of the Thesis Receipt until you receive confirmation from the university that you have earned your degree.
+    * If you took an extended semester with a grace period, be sure to submit petition to change grade for your thesis course (898) from ```RP``` to  ```CR```. 
 
 
 
