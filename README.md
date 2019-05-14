@@ -45,9 +45,9 @@ Postscript: Here is an "algorithm" how to file your thesis (Updated Spring 2019)
 	c) Make necessary changes instructed by the format check reviewer. 
 	d) Do not print your thesis on "thesis paper" (e.g., at Rapid Copy, in Cesar Chavez or the Bookstore) until instructed by the format check reviewer and verbally approved by your thesis committee.
 5) Immediately after your defense:
-	a) obtain signatures from your committee members on the "Certification of Approval" page,
-	b) obtain signature from your committee chair on the "Abstract" page.
-	c) obtain signature from your committee chair on the Thesis Receipt (given at the preliminary format check), and complete the Public Access/Embargo section.
+     a) obtain signatures from your committee members on the "Certification of Approval" page,
+     b) obtain signature from your committee chair on the "Abstract" page.
+     c) obtain signature from your committee chair on the Thesis Receipt (given at the preliminary format check), and complete the Public Access/Embargo section.
 6) Final format check (ADM 254):   
 	a) They re-verify proper formatting and original signatures. You should bring your final printed copy for this step.
 	b) If the formatting is not acceptable, then they'll send it back to you, you'll have to fix the formatting, re-print, get signatures, and re-submit (repeat steps 5-6).  
