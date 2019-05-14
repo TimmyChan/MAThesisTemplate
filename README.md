@@ -40,12 +40,9 @@ For comments, problems, or suggestions, please contact Dr. Matthias Beck (```mat
 ## Filing the Thesis
 Postscript: Here is an "algorithm" how to file your thesis (Updated Spring 2019):
 1) Preliminary format check (ADM 254): 
-  1) Print out all of your "preamble" pages (Cover Page, Copyright, Certification of Approval, Abstract, Table of Contents, List of Figures, etc.), the first couple pages of your first chapter, and examples of figures, tables and appendices.
-     
-  2) Bring all this to the Grad Office (ADM 254) to have them do a preliminary format check (you can just drop by).
-     
-  3) Make necessary changes instructed by the format check reviewer. 
-     
+  1) Print out all of your "preamble" pages (Cover Page, Copyright, Certification of Approval, Abstract, Table of Contents, List of Figures, etc.), the first couple pages of your first chapter, and examples of figures, tables and appendices.  
+  2) Bring all this to the Grad Office (ADM 254) to have them do a preliminary format check (you can just drop by).   
+  3) Make necessary changes instructed by the format check reviewer.    
   4) Do not print your thesis on "thesis paper" (e.g., at Rapid Copy, in Cesar Chavez or the Bookstore) until instructed by the format check reviewer and verbally approved by your thesis committee.
 2) Immediately after your defense:
      a) obtain signatures from your committee members on the "Certification of Approval" page,
